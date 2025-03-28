@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2c2c2c;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #6e533b;
+}
+
+nav {
+    margin-bottom: 15px;
+}
+
+nav a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover{
+    color: #f3de8b;
+}
+
+
+h1, p {
+    text-align: left;
+}
+
+.intrototal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo para o bloco de texto */
+.intro {
+    flex: 1;
+    max-width: 50%;
+}
+
+#quemsomos {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+#problematica {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+#reflexao {
+    margin: 10px;
+    padding-bottom: 30px;
+}
+
+#contatotitulo {
+    margin: 10px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.botao-container {
+    margin-top: 10px;
+}
+
+.botao-saiba-mais {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#fdac32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao-saiba-mais:hover {
+    background-color:#fad647;
+}
+
+/* Estilo para a imagem */
+.imgintro {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.intro {
+    font-size: 25px;
+    text-align: left ;
+    padding: 100px;
+}
+#titulo {
+    margin: 10px;
+}
+.styletitulo {
+    background-color: #6e533b;
+    padding: 30px;
+}
+
+.styletitulo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.styletopicos div {
+    padding: 0px;
+}
+
+.styleproblematica {
+    background-color: #cd7a00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.problematicaimage img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+.stylenossoprojeto {
+    background-color: #6e533b;
+}
+
+.projetoimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetoimage img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+
+.stylereflexao {
+    background-color: #fbb040;
+    padding: 0px;
+}
+
+.stylecontato {
+    background-color: #cd7a00;
+}
+
+
+.styletopicos {
+    padding: 0px;
+}
+
+.styletopicos section {
+    margin: 0px 0;
+    padding: 120px;
+    border-radius: 0px;
+}
+
+.stylequemsomos {
+    background-color: #fbb040;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.styleproblematica {
+    background-color: #cd7a00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+.problematica-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.problematica-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.stylenossoprojeto {
+    background-color: #6e533b;
+    text-align: center;
+}
+
+.projeto-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.projeto-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.stylereflexao {
+    background-color: #fbb040;
+    padding: 20px;
+    text-align: left;
+}
+
+.styletopicos h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.styletopicos p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.stylecontato {
+    background-color: #cd7a00;
+    padding: 40px;
+    text-align: left;
+}
+
+.contato-content {
+    justify-content: space-between; 
+    gap: 5px; 
+    flex-wrap: wrap; 
+    padding: 10px 0;
+}
+
+
+.contato-item p {
+    margin: 10px 0;
+}
+
+.contato-item a {
+    color:#FFF
+}
+
+.contato-item a:hover {
+    color: #fdac32; 
+}
