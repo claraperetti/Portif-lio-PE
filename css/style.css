@@ -453,6 +453,7 @@ background: linear-gradient(to right, rgba(255, 107, 107, 0) 0%, #fdac32 100%);
         justify-content: center;
         align-items: center;
         width: 100%;
+        min-height: 100vh;
         gap: 20px;
     }
 
