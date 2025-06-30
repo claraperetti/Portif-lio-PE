@@ -61,7 +61,22 @@
                 </div>
             </div>
         </section>
-    
+        <section class="container_documentos">
+            <h1>Documentos</h1>
+            <p>Logo abaixo está os documentos que foram desenvolvidos do nosso projeto <strong>BEE SMART!!</strong></p>
+            <div class="subtitulo-docs">
+                <i class="fa-solid fa-arrow-down fa-xl" style="color: #cd7a00;"></i>
+                <p>Confira os documentos abaixo</p>
+                <i class="fa-solid fa-arrow-down fa-xl" style="color: #cd7a00;"></i>
+            </div>
+            <div class="btns-documentos">
+                <button onclick="abrirDocumentoVisao()">Visão</button>
+                <button onclick="abrirDocumentoMVP()">MVP</button>
+                <button onclick="abrirDocumentoCasoDeUso()">Caso de Uso</button>
+                <button onclick="abrirDocumentoDER()">Modelagem do Banco de Dados(DER)</button>
+                <button onclick="abrirDocumentoWorkflow()">Workflow</button>
+            </div>
+        </section>
         <section id="problematica1" class="styleproblematica">
             <h2 data-aos="zoom-in-down" id="problematica">Comunidade</h2>
             <div data-aos="zoom-in-down" class="problematica-content">
@@ -125,6 +140,23 @@
     </main>
     <button class="btn-subir"><i class="fa-solid fa-arrow-up fa-xl" style="color: #ffffff;"></i></button>
     <script src="scpit.js"></script>
+      <script>
+        function abrirDocumentoVisao() {
+            window.open('documentos/documento-visao.pdf', '_blank');
+        }
+        function abrirDocumentoMVP() {
+            window.open('documentos/MVP- Bee Smart.pdf', '_blank');
+        }
+        function abrirDocumentoCasoDeUso() {
+            window.open('documentos/caso_de_uso.pdf', '_blank');
+        }
+        function abrirDocumentoDER() {
+            window.open('documentos/Modelagem do Banco de Dados (DER) - Bee Smart.pdf', '_blank');
+        }
+        function abrirDocumentoWorkflow() {
+            window.open('documentos/Workflow - Bee Smart.pdf', '_blank');
+        }
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
