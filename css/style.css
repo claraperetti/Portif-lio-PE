@@ -465,6 +465,9 @@ background: linear-gradient(to right, rgba(255, 107, 107, 0) 0%, #fdac32 100%);
 .projeto-disponivel{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    gap: 50px;
+    padding: 0px;
 }
 
 .texto-projeto{
@@ -626,6 +629,10 @@ video{
         flex-direction: column;
         gap: 50px;
         padding: 0px;
+    }
+
+    .projeto-disponivel h1 {
+        text-align: center;
     }
 
     video{
