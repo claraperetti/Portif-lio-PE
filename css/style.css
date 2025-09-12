@@ -504,6 +504,21 @@ video{
     border-radius: 20px;
 }
 
+.link-projeto{
+    display: flex;
+    flex-direction: column;
+}
+
+.jogo{
+    display: flex;
+    gap: 10px;
+}
+
+.link-github{
+    display: flex;
+    gap: 10px;
+}
+
 /* responsividade */
 
 @media (max-width: 1340px){
@@ -639,6 +654,7 @@ video{
         width: 100%;
 
     }
+
 }
 
 @media (max-width: 600px){
